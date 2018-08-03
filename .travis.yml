@@ -1,0 +1,11 @@
+language: go
+
+go:
+  - "1.10.3"
+
+sudo: false
+
+go_import_path: github.com/alayas/alayascli
+
+script:
+  - go build -o bin/alayascli github.com/alayas/alayascli/cmd
