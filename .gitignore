@@ -1,0 +1,8 @@
+bin/
+pkg/
+*.gz
+*.tgz
+*.tar
+*.bz
+*.zip
+*.bin
